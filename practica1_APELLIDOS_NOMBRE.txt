@@ -1,1 +1,17 @@
 CRISTIAN CALLEJAS LOPEZ
+
+$ git branch
+$ git add .
+$ git commit -m "primer"
+$ git checkout -b practica1_APELLIDOS_NOMBRE
+$ git add 
+$ git commit -m "segundo"
+$ git add .
+$ git push --set-upstream origin practica1_APELLIDOS_NOMBRE
+$ git checkout main
+$ git remote -v
+$ git remote rm origin
+$ git add .
+$ git push --set-upstream origin main
+$ git checkout practica01
+$ git merge practica1_APELLIDOS_NOMBRE
